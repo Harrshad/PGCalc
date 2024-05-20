@@ -1,0 +1,16 @@
+.top-header{
+    background: linear-gradient(to right, #2E244F, #1A4269);
+    color: white;
+}
+.navbar{
+    background: linear-gradient(to right, #2E244F, #1A4269);
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.menu{
+    background: linear-gradient(to bottom, #C7C7C7,#fff,#fff, #C7C7C7);
+    height: 100%;
+}
+.logo{height: 100%;}
+.logo img{height: 100%;}
