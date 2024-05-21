@@ -38,9 +38,20 @@ p span{font-weight: bold;}
 /* ======================== */
 
 .bg-login{
-    background-image: url(/img/login-bg.png);
+    background-image: url(/assets/img/login-bg.png);
     background-size: cover;
     background-position: center;
     object-fit: fill;
-    height: 100%;
+    /* height: 100vh; */
+  
+}
+
+.bg-light-card{
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 8px;
+    border:1.5px solid rgba(255, 255, 255, .6)  ;
+   
+    /* background-blend-mode: multiply; */
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
 }
