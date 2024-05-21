@@ -19,10 +19,28 @@ p span{font-weight: bold;}
 .logo{height: 100%;}
 .logo img{height: 100%;}
 
+
+.fw-medium >  .dropdown > a{
+    font-weight: 600;
+    border-left:1px solid #D9D9D9;
+}
+
+
 .fw-medium > div{
     font-weight: 600;
     border-left:1px solid #D9D9D9;
 }
 .fw-medium > div:last-child{
     border-right:1px solid #D9D9D9;
+}
+
+
+/* ======================== */
+
+.bg-login{
+    background-image: url(/img/login-bg.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    height: 100%;
 }
