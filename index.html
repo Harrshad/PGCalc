@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/vendors/font-awesome/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 <body>
     <nav class="navbar position-relative p-0">
@@ -13,7 +16,7 @@
             <a href=""><img src="assets/img/logo.png" class="image-fluid" alt=""></a>
         </div>
         <!-- <div class="position-absolute top-0 end-0"></div> -->
-        <div class="container px-5">
+        <div class="container">
             <div class="top-header d-flex justify-content-around w-100 align-items-center my-2">
                 <div><p class="m-0">Last Login : 04 / 17 / 2024  07:20 AM ET</p></div>
                 <div><p class="m-0"><span>MULTICLIENTB42 </span> : Administrator 40</p></div>
@@ -30,7 +33,7 @@
         <div class="menu w-100 py-2 z-1">
             <div class="container  d-flex justify-content-around  align-items-end  fw-medium">
                 <div class="dropdown w-100 text-center py-0 ">
-                    <a class="btn px-0 py-0 border-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="btn px-0 py-0 border-0 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Actions
                     </a>
                     <div class="dropdown-menu">
@@ -77,23 +80,24 @@
                     </div>
                     
                 </div>
-                <div class="w-100 text-center">Summaries</div>
-                <div class="w-100 text-center">Analysis</div>
-                <div class="w-100 text-center">Compliance</div>
-                <div class="w-100 text-center">Payments</div>
-                <div class="w-100 text-center">1099 Tax</div>
-                <div class="w-100 text-center">PIF</div>
-                <div class="w-100 text-center">Tasks</div>
-                <div class="w-100 text-center">Utilities</div>
-                <div class="w-100 text-center">Setup</div>
+                <div class="w-100 text-center fw-medium px-1">Summaries</div>
+                <div class="w-100 text-center fw-medium px-1">Analysis</div>
+                <div class="w-100 text-center fw-medium px-1">Compliance</div>
+                <div class="w-100 text-center fw-medium px-1">Payments</div>
+                <div class="w-100 text-center fw-medium px-1">1099 Tax</div>
+                <div class="w-100 text-center fw-medium px-1">PIF</div>
+                <div class="w-100 text-center fw-medium px-1">Tasks</div>
+                <div class="w-100 text-center fw-medium px-1">Utilities</div>
+                <div class="w-100 text-center fw-medium px-1">Setup</div>
             </div>
         </div>
     </nav>
 
     <div class="container py-4 z-0">
         <div class="card">
-            <div class="card-header">
-                Quick Launch
+            <div class="card-header py-1 d-flex justify-content-between">
+              <p class="my-0">Quick Launch</p> 
+              <i class="mdi mdi-help-circle-outline "></i> 
             </div>
             <div class="card-body p-0">
               <div class="row pt-2 px-4">
@@ -162,11 +166,11 @@
                     </div>
                 </div>
               </div>
-              <center class="pt-2"><p><img src="" alt=""> To suppress the quick launch screen, click the Account link at the top of the page</p></center>
+              <center class="pt-2"><p><i class="fa fa-exclamation-triangle text-warning"></i> To suppress the quick launch screen, click the Account link at the top of the page</p></center>
             </div>
         </div>
-        <div class=" d-flex justify-content-center pt-3 position-absolute bottom-0 start-50 translate-middle">
-            <p class="fw-semibold m-0">© Copyright 2024 PG Calc. All rights reserved.</p>
+        <div class="footer d-flex justify-content-center pt-3 fixed-bottom z-0 py-2">
+            <p class="fw-regular m-0 "> © Copyright 2024 PG Calc. All rights reserved.</p>
         </div>
     </div>
 </body>
