@@ -1,5 +1,7 @@
 body{
     background-color: #F4F4F4;
+    height: 100vh;
+    overflow: hidden;
 }
 .top-header{
     background: linear-gradient(to right, #2E244F, #1A4269);
@@ -33,16 +35,21 @@ p span{font-weight: bold;}
 .fw-medium > div:last-child{
     border-right:1px solid #D9D9D9;
 }
-.card-tab{background:linear-gradient(to bottom right, #FFBD96,#FE8E91, #FE8EAB); height: 210px;}
-.card-tab1{background:linear-gradient(to bottom right, #BDD6FC,#638FD1, #295AA4);height: 210px}
-.card-tab2{background:linear-gradient(to bottom right, #C2F6F2,#48DAC5, #3AD7BE);height: 210px}
-.card-tab3{background:linear-gradient(to bottom right, #FFBD96,#FE8E91, #FE8EAB);height: 210px}
-.card-tab4{background:linear-gradient(to bottom right, #BDD6FC,#638FD1, #295AA4);height: 210px}
-.card-tab5{background:linear-gradient(to bottom right, #C2F6F2,#48DAC5, #3AD7BE);height: 210px}
+.card-tab {background:linear-gradient(to bottom right, #FFBD96,#FE8E91, #FE8EAB);  box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
+.card-tab1{background:linear-gradient(to bottom right, #BDD6FC,#638FD1, #295AA4); box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
+.card-tab2{background:linear-gradient(to bottom right, #C2F6F2,#48DAC5, #3AD7BE); box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
+.card-tab3{background:linear-gradient(to bottom right, #FFBD96,#FE8E91, #FE8EAB); box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
+.card-tab4{background:linear-gradient(to bottom right, #BDD6FC,#638FD1, #295AA4); box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
+.card-tab5{background:linear-gradient(to bottom right, #C2F6F2,#48DAC5, #3AD7BE); box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
 .card-title{font-size: 24px;}
-.card-image{width: 151px;height: 151px;}
-.card-image1{width:140px;height: 140px;}
-.card-tab:hover{box-shadow: ;}
+.card-image{width: 121px;height: 121px;}
+.card-image1{width:121px;height: 121px;}
+.card-tab:hover{box-shadow: 0px 2px 15px #FE9A92;}
+.card-tab1:hover{box-shadow: 0px 2px 15px #79A0DC;}
+.card-tab2:hover{box-shadow: 0px 2px 15px #;}
+.card-tab3:hover{box-shadow: 0px 2px 15px #;}
+.card-tab4:hover{box-shadow: 0px 2px 15px #;}
+.card-tab5:hover{box-shadow: 0px 2px 15px #;}
 
 .circle {
     width: 210px;
@@ -65,8 +72,8 @@ p span{font-weight: bold;}
     background-image: url(/assets/img/login-bg.png);
     background-size: cover;
     background-position: center;
-    object-fit: fill;
-    /* height: 100vh; */
+    /* object-fit: fill; */
+    height: 100vh;
   
 }
 
