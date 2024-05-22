@@ -38,18 +38,18 @@ p span{font-weight: bold;}
 .card-tab {background:linear-gradient(to bottom right, #FFBD96,#FE8E91, #FE8EAB);  box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
 .card-tab1{background:linear-gradient(to bottom right, #BDD6FC,#638FD1, #295AA4); box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
 .card-tab2{background:linear-gradient(to bottom right, #C2F6F2,#48DAC5, #3AD7BE); box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
-.card-tab3{background:linear-gradient(to bottom right, #FFBD96,#FE8E91, #FE8EAB); box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
-.card-tab4{background:linear-gradient(to bottom right, #BDD6FC,#638FD1, #295AA4); box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
-.card-tab5{background:linear-gradient(to bottom right, #C2F6F2,#48DAC5, #3AD7BE); box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
+.card-tab3{background:linear-gradient(to bottom right, #FFBD96,#FBB562, #FD7716); box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
+.card-tab4{background:linear-gradient(to bottom right, #FBEF88,#F2E145, #FFE70B); box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
+.card-tab5{background:linear-gradient(to bottom right, #42BD76,#3DA469, #56E593); box-shadow: 0px 2px 5px #0000002f;transition: box-shadow 0.3s ease;}
 .card-title{font-size: 24px;}
-.card-image{width: 121px;height: 121px;}
-.card-image1{width:121px;height: 121px;}
+.card-image{width: 110px;height: 110px;}
+.card-image1{width:110px;height: 110px;}
 .card-tab:hover{box-shadow: 0px 2px 15px #FE9A92;}
 .card-tab1:hover{box-shadow: 0px 2px 15px #79A0DC;}
-.card-tab2:hover{box-shadow: 0px 2px 15px #;}
-.card-tab3:hover{box-shadow: 0px 2px 15px #;}
-.card-tab4:hover{box-shadow: 0px 2px 15px #;}
-.card-tab5:hover{box-shadow: 0px 2px 15px #;}
+.card-tab2:hover{box-shadow: 0px 2px 15px #67E1D0;}
+.card-tab3:hover{box-shadow: 0px 2px 15px #FBA049;}
+.card-tab4:hover{box-shadow: 0px 2px 15px #F4E23B;}
+.card-tab5:hover{box-shadow: 0px 2px 15px #3DA56A;}
 
 .circle {
     width: 210px;
@@ -75,6 +75,12 @@ p span{font-weight: bold;}
     /* object-fit: fill; */
     height: 100vh;
   
+}
+.form-signin > form {
+    position: absolute;
+    top: 85px;
+    /* right: 0px; */
+    width: 70%;
 }
 
 .bg-light-card{
