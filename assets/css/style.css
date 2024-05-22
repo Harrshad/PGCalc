@@ -44,6 +44,12 @@ p span{font-weight: bold;}
 .dropdown{
     height: 19px;
 }
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -17px;
+    margin-top: var(--bs-dropdown-spacer);
+}
+.dropdown-menu{width: 1010px;}
 
 .fw-medium > div{
     font-weight: 600;
