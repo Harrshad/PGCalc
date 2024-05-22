@@ -98,8 +98,8 @@ p span{font-weight: bold;}
     padding-right: 4.5rem !important;
 }
 .navbar > .container{
-    padding-left: 7rem !important;
-    padding-right: 4.5rem !important;
+    /* padding-left: 5rem !important; */
+    /* padding-right: 4.5rem !important; */
 }
 .container.py-4.z-0{
     padding-left: 6rem !important;
