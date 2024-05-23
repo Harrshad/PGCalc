@@ -11,6 +11,11 @@ body{
 center{
     font-size: 14px !important;
 }
+.pgcalc-logo{
+    background-image: url(../img/pgcalc-logo.png);
+    height: 160px;
+    background-repeat: no-repeat
+}
 
 .top-header{
     background: linear-gradient(to right, #2E244F, #1A4269);
@@ -101,7 +106,7 @@ p span{font-weight: bold;}
 /* ======================== */
 
 .bg-login{
-    background-image: url(/assets/img/login-bg.png);
+    background-image: url(../img/login-bg.png);
     background-size: cover;
     background-position: center;
     /* object-fit: fill; */
