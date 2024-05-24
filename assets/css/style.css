@@ -165,8 +165,10 @@ p span{font-weight: bold;}
 
 }
 .form-label{font-size: 14px;}
-.form-control{border: 1px solid #DEE2E6;border-radius: 2px;font-size: 14px;}
-.form-select{border: 1px solid #DEE2E6;border-radius: 2px;font-size: 14px;}
+.form-control{border: 1px solid #DEE2E6;border-radius: 2px;font-size: 12px;}
+.form-select{border: 1px solid #DEE2E6;border-radius: 2px;font-size: 12px;}
+.btn-primary{background-color: #1B4269;border: none;}
+.btn{font-size: 12px; border-radius: 2px;}
 
 /* ====================Media queries================ */
 
