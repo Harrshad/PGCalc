@@ -147,6 +147,27 @@ p span{font-weight: bold;}
 .footer > p{
     font-size: 12px;
 }
+
+.nav-pills .nav-link.active {
+    background-color: #1B4269;
+    border-radius: 0%;
+}
+.nav-pills .nav-link:hover{
+    color: initial !important;
+}
+.nav-pills .nav-link{
+    background-color: #EBEBEB;
+    border-radius: 0%;
+    border-right: 1px solid #C9C9C9;
+}
+.input-body{
+    background-color:#F6F6F6;
+
+}
+.form-label{font-size: 14px;}
+.form-control{border: 1px solid #DEE2E6;border-radius: 2px;font-size: 14px;}
+.form-select{border: 1px solid #DEE2E6;border-radius: 2px;font-size: 14px;}
+
 /* ====================Media queries================ */
 
 
