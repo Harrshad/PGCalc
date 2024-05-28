@@ -173,6 +173,7 @@ th{background: transparent !important;border-right: 1px solid #fff; padding: 20p
 .form-select{border: 1px solid #DEE2E6;border-radius: 2px;font-size: 12px;}
 .btn-primary{background-color: #1B4269;border: none;}
 .btn{font-size: 12px; border-radius: 2px;font-weight: bold !important;}
+.card-header a{color: #1A4269 !important;}
 
 /* ====================Media queries================ */
 
