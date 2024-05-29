@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assets/vendors/font-awesome/css/all.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> -->
 </head>
 <body>
     <nav class="navbar position-relative p-0">
@@ -102,7 +102,7 @@
         </div>
     </nav>
 
-    <div class="container py-4 z-0">
+    <div class="container px-5 py-4 z-0">
         <div class="card">
             <div class="card-header py-1 d-flex justify-content-between">
               <p class="my-0">Search</p>
@@ -111,39 +111,41 @@
             <div class="card-body1 p-0">
                 <ul class="nav nav-pills p-3 pb-0">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Person Search</a>
+                      <a class="nav-link1 active p-1" aria-current="page" href="#">Person Search</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Remainder/Fund Beneficiary Search</a>
+                      <a class="nav-link1 p-1" href="#">Remainder/Fund Beneficiary Search</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Gift Search</a>
+                      <a class="nav-link1 p-1" href="#">Gift Search</a>
                     </li>
                 </ul>
                 <div class="input-body m-3 mt-0">
                     <div class="row">
                         <div class="col-md-8">
-                            <div class="d-flex gap-3 p-3 pb-0 fs-6">
-                                <div class="w-100">
+                            <div class="d-flex gap-3 px-3 pb-0 fs-6">
+                                <div class="w-100 form-input">
                                     <label for="exampleFormControlInput1" class="form-label">First Name</label>
                                     <input type="" class="form-control p-1">
                                 </div>
-                                <div class="w-100">
+                                <div class="w-100 form-input">
                                     <label for="exampleFormControlInput1" class="form-label">Last Name</label>
                                     <input type="" class="form-control p-1">
                                 </div>
-                                <div class="w-100">
+                                <div class="w-100 form-input">
                                     <label for="exampleFormControlInput1" class="form-label">SS Num</label>
-                                    <input type="" class="form-control p-1">
+                                    <div><input type="" class="form-control p-1"></div>
                                 </div>
                             </div>
-                            <div class="d-flex gap-3 p-3 pb-0 fs-6">
-                                <div class="row">
-                                    <div class="col-4">
+                            <div class="d-flex gap-3 px-3 pb-0 fs-6">
+                                <div class="">
+                                    <div class="d-flex gap-3 px-3 pb-0 fs-6">
+                                         <div class="form-input">
                                         <label for="exampleFormControlInput1" class="form-label">Person Key</label>
-                                        <input type="" class="form-control p-1">
+                                        <div><input type="" class="form-control p-1"></div>
+                                        
                                     </div>
-                                    <div class="col-8">
+                                    <div class="form-input">
                                         <label for="exampleFormControlInput1" class="form-label">Person Codes</label>
                                         <div class="d-flex gap-3">
                                             <input type="" class="form-control p-1">
@@ -151,11 +153,13 @@
                                             <input type="" class="form-control p-1">
                                             <input type="" class="form-control p-1">
                                         </div>
-                                        <div class="d-flex gap-3 justify-content-end pt-3">
-                                            <button type="button" class="btn btn-primary p-1 px-3">Search</button>
-                                            <button type="button" class="btn btn-danger p-1 px-3">Cancel</button>
-                                            <button type="button" class="btn btn-outline-danger p-1 px-3">Clear</button>
-                                        </div>
+                                    </div>
+                                    </div>
+                                   
+                                    <div class="d-flex gap-3 justify-content-end pt-3">
+                                        <button type="button" class="btn btn-primary p-1 px-3">Search</button>
+                                        <button type="button" class="btn btn-danger p-1 px-3">Cancel</button>
+                                        <button type="button" class="btn btn-outline-danger p-1 px-3">Clear</button>
                                     </div>
                                 </div> 
                             </div>

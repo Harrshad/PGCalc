@@ -2,8 +2,9 @@ body{
     background-color: #F4F4F4;
     height: 100vh;
     overflow: hidden;
-    font-family: 'Poppins';
+    /* font-family: 'Poppins'; */
 }
+.card{height: 500px;}
 .card-header{
     color: #1c4068;
 }
@@ -143,23 +144,25 @@ th{background: transparent !important;border-right: 1px solid #fff; padding: 20p
     padding-right: 2rem !important;
  }
 
-.container.py-4.z-0{
+/* .container.py-4.z-0{
     padding-left: 6rem !important;
     padding-right: 4.5rem !important;
-}
+} */
 
 .footer > p{
     font-size: 12px;
 }
 
-.nav-pills .nav-link.active {
+.nav-link1{text-decoration: none;color: #000;font-size: 14px;}
+.nav-pills .nav-link1.active {
     background-color: #1B4269;
     border-radius: 0%;
+    color: #fff;
 }
-.nav-pills .nav-link:hover{
-    color: initial !important;
-}
-.nav-pills .nav-link{
+/* .nav-pills .nav-link1:hover{
+    color: white !important;
+} */
+.nav-pills .nav-link1{
     background-color: #EBEBEB;
     border-radius: 0%;
     border-right: 1px solid #C9C9C9;
@@ -168,7 +171,8 @@ th{background: transparent !important;border-right: 1px solid #fff; padding: 20p
     background-color:#F6F6F6;
 
 }
-.form-label{font-size: 14px;}
+.form-input{font-size: 12px;display: flex;}
+.form-label{font-size: 12px;width: 50%;}
 .form-control{border: 1px solid #DEE2E6;border-radius: 2px;font-size: 12px;}
 .form-select{border: 1px solid #DEE2E6;border-radius: 2px;font-size: 12px;}
 .btn-primary{background-color: #1B4269;border: none;}
@@ -179,8 +183,8 @@ th{background: transparent !important;border-right: 1px solid #fff; padding: 20p
 
 
 @media (min-width: 1400px) {
-    .card{width: 1140px;height: 548px;}
+    .card{height: 578px;}
     .card-tab , .card-tab1 , .card-tab2,.card-tab3,.card-tab4,.card-tab5{height: 200px;}
-    .card-body{height: -webkit-fill-available; display: flex; flex-direction: column; justify-content: space-between;}
+    .card-body{height: -webkit-fill-available; display: flex; flex-direction: column; justify-content: space-evenly;}
     .card-image{height: 130px;width: 130px;}
 }
